@@ -10,7 +10,9 @@ Originally created by Reddit user [u/dippnerd](https://www.reddit.com/user/dippn
 ## Installation
 
 AddToSiri can be installed via Swift Package Manager - just copy over the Github URL:
-`https://github.com/chFlorian/AddToSiri`
+```
+https://github.com/chFlorian/AddToSiri
+```
 
 ## Usage
 
