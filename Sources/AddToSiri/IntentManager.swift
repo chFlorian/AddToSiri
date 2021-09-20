@@ -28,6 +28,7 @@ public final class IntentManager {
             if let error = error {
                 print(error)
             }
+            print("Donated intent successfully.")
         }
         
         if let shortcut = INShortcut(intent: intent) {
