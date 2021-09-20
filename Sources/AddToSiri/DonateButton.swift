@@ -11,6 +11,10 @@ import Intents
 
 public struct DonateButton: UIViewControllerRepresentable {
     public var intent: INIntent
+    
+    public init(intent: INIntent) {
+        self.intent = intent
+    }
         
     public func makeUIViewController(context: Context) -> DonateViewController {
         let controller = DonateViewController()
